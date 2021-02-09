@@ -1,0 +1,17 @@
+{
+    "name": "test-mocha-grep",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/mocha/bin/mocha ./test/**/*.spec.js",
+        "test1": "./node_modules/mocha/bin/mocha --grep 'test1' ./test/**/*.spec.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "^4.3.0",
+        "mocha": "^8.2.1"
+    }
+}
